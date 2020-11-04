@@ -1,0 +1,7 @@
+<div *ngIf="productos.length > 0">
+  <ul>
+    <li *ngFor="let prod of productos">
+      <p>ID: {{prod.id}} Nombre: {{prod.nombre}} Desc: {{prod.desc}}</p>
+    </li>
+  </ul>
+</div>
